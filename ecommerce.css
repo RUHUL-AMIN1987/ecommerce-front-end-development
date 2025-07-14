@@ -81,6 +81,9 @@ nav{
     display: flex;
     gap: 26px;
 }
+.container h2{
+    padding: 30px
+}
 .categories-card{
     display: flex;
     justify-content: space-between;
@@ -125,4 +128,47 @@ nav{
     color: white;
     font-size: 35px;
     font-weight: bold;
+}
+/* Shoes and Bag Section */
+/* Shoes */
+.shoe-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.all p{
+    font-variant: 20px;
+    color: rgba(255, 157, 0, 1);
+}
+.container h1{
+    color: rgba(31, 31, 31, 1);
+    font-size: 36px;
+}
+.shoes-section{
+    background-color: rgba(244, 244, 244, 1);
+    padding: 50px 0;
+}
+.shoe-card img{
+    width: 336px;
+    height: 202px;
+}
+.shoe-card{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.card-price{
+    display: block;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+.shoe-card .banner-bt{
+    background-color: black;
 }
